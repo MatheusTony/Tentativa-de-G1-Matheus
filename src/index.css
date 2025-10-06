@@ -84,9 +84,7 @@ p{
 }
 
 main {
-    /* (Mantenha a correção da Navbar) */
-    margin-top: 65px; 
-    
+    margin-top: 65px;
     /* 1. Limita a largura do conteúdo (ex: 800px, ajuste conforme desejar) */
     max-width: 800px; 
     
