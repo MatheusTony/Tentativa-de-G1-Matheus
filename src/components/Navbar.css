@@ -1,0 +1,32 @@
+.fixed-navbar {
+    /* 1. Fixa a barra no topo da viewport */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    
+    /* 2. Garante que ela fique na frente de todo o conteúdo */
+    z-index: 1000; 
+    
+    /* 3. Estilos básicos (ajuste conforme o design) */
+    background-color: #282c34; /* Exemplo de cor escura */
+    color: white;
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-right: 20px; 
+    padding: 10px 0;
+}
+.fixed-navbar nav {
+    display: flex; /* Transforma em Flex Container */
+    align-items: center; /* Centraliza verticalmente */
+
+    /* Adiciona um espaço de 30px ENTRE cada item */
+    gap: 30px
+}
+
+.titulos{
+    background-color: rgb(49, 38, 48);
+}
